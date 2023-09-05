@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
+import Navbar from "./components/navbar.jsx"
 import './index.css'
 
 
@@ -13,13 +13,16 @@ import Reflection from "./components/reflection.jsx"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div  >
-  
+    <Navbar/>
+    
     <Home/>
-    {/* <About/>
+    
+    <About/>
+     
     <Xp/>
     <Table/>
     <Reflection/>
- */}
+ 
     </div>
     
   </React.StrictMode>,

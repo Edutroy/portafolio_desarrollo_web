@@ -1,10 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer base{
+  html{
+    font-signature: 'Monoton',cursive;
+}
+}
+
 /* styles.css */
 .bg-image {
     background-image: url(../public/image1.jpg);
-    
   }
+
+/* para los card de trabajos previos */
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+.css-1fdcab1-logoImg {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  margin-top: 12px;
+}
+.p-42{
+padding: em;;
+
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right:20px;
+  height: 300px;
+  width:380px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+      to right,
+      rgba(112, 157, 255, 0.8),
+      hsla(242, 74%, 61%, 0.8)   
+  )!important;
+}
+
+#container {
+  transition: transform 0.3s ease-in-out;
+}
+
   
