@@ -17,10 +17,15 @@ export default {
     },
     fontFamily:{
       signature:["Monoton"],
+      signature1:["Fascinate Inline"],
     },
+      
     spacing:{
       '45':'63rem',
       '17':'2rem'
+    },
+    width: {
+      '100': '32rem',
     },
 
   }

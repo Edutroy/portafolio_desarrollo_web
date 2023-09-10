@@ -50,14 +50,14 @@ function previusworks() {
   return (
     <div
       name="portafolio"
-      className="bg-gradient-to-r from-test1 from-20% via-test2 via-40% to-test3 to-90% text-white md:h-screen"
+      className="bg-gradient-to-r from-test1 from-20% via-test2 via-40% to-test3 to-90% text-cyan-500 md:h-screen w-max-full"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-center">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-blue-500">
+          <p className="text-4xl font-signature1 inline border-b-4 border-white ">
             Portafolio
           </p>
-          <p className="py-6">Echale un ojo a algunos de mis trabajos previos</p>
+          <p className="py-6 text-white">Echale un ojo a algunos de mis trabajos previos</p>
           
           <div className="absolute">
           <button onClick={scrollLeft} className="absolute top-40 right-17 p-2 m-2 rounded-full ">
