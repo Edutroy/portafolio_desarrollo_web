@@ -3,7 +3,9 @@ import React from 'react'
 function reflection() {
   return (
     
-    <div className="bg-gradient-to-r from-test1 from-20% via-test2 via-40% to-test3 to-90% md:h-screen w-max-full"
+    <  div
+    name="reflection"
+    className="bg-gradient-to-r from-test1 from-20% via-test2 via-40% to-test3 to-90% md:h-screen w-max-full"
     >
       <section className="pb-8 justify-center w-full h-full text-center">
       <p className="text-4xl font-signature1 inline border-b-4 border-white  text-cyan-500 pt-8">

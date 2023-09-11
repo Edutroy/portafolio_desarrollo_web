@@ -3,7 +3,9 @@ import Navbar from "./navbar.jsx"
 
 function home() {
   return (
-    <div className="w-full justify-center h-screen bg-image bg-no-repeat bg-cover flex flex-col items-center  ">
+    <div
+    name="home"
+    className="w-full justify-center h-screen bg-image bg-no-repeat bg-cover flex flex-col items-center  ">
       <div className="flex flex-col items-center justify-center h-full pt-24">
         <img
           className=" rounded-full h-28  opacity-70 "
