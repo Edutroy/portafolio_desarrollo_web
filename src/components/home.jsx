@@ -25,17 +25,7 @@ function home() {
           </h5>
         </section>
 
-        <section className=" px-56 text-center backdrop-blur-sm">
-          <p className="text-gray-300 text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            blanditiis officiis mollitia dolor, corporis maiores rerum molestias
-            nemo quibusdam eos magni dignissimos quidem, dolorum ea ex, quo
-            cupiditate quae eum. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Adipisci saepe voluptas ipsam at dolore asperiores
-            nulla animi. Quae sequi non eaque porro omnis voluptatem asperiores,
-            facilis minima animi voluptatum quasi.
-          </p>
-        </section>
+      
       </div>
     </div>
   );
