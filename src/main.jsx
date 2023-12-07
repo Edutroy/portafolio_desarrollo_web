@@ -18,11 +18,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Home/>
     
     <About/>
-     
+  
     <Xp/>
     <Table/>
-    <Reflection/>
- 
+    <Reflection/> 
     </div>
     
   </React.StrictMode>,

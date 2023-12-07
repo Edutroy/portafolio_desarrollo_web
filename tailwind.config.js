@@ -25,7 +25,7 @@ export default {
       '17':'2rem'
     },
     width: {
-      '100': '32rem',
+      '100': '48rem',
     },
 
   }
